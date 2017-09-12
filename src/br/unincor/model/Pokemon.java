@@ -4,9 +4,9 @@ public class Pokemon {
 	
 	private String nome; //Nome do pokemon - sem validação
 	private String tipo; //Tipo do pokemon - sem validação
-	private Double peso; //Peso do pokemon - deve ser um valor positivo (padrão = 1)
-	private Double altura; //Altura do pokemon - deve ser um valor positivo (padrão = 1)
-	private Long cp; //Pontos de combate - deve ser um valor positivo (padrão = 1)
+	private Double peso; //Peso do pokemon - deve ser um valor positivo
+	private Double altura; //Altura do pokemon - deve ser um valor positivo
+	private Long cp; //Pontos de combate - deve ser um valor positivo
 	
 	public Pokemon(String nome, String tipo, Double peso, Double altura) {
 		super();
