@@ -15,7 +15,7 @@ public class EvolucaoException extends Exception {
 
 	@Override
 	public String getMessage() {
-		return "Erro ao evoluir o pokemon <" + p.getNome() + ">.";
+		return "Erro ao evoluir o pokemon <" + p.getNome() + ">. CP insuficiente.";
 	}
 
 }
